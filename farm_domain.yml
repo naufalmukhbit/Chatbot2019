@@ -1,0 +1,28 @@
+slots:
+  location:
+    type: text
+
+intents:
+  - greet
+  - inform
+  - thanks
+  - feeling
+
+entities:
+  - person
+
+templates:
+  utter_greet:
+    - text: 'Halo! Ada yang bisa saya bantu, kak?'
+  utter_thanks:
+    - text: 'Baik kak, senang bisa membantu!'
+  utter_unclear:
+    - text: 'Maaf bagaimana ya kak? Saya nggak ngerti nih...'
+    - text: 'Bisa tolong diperjelas kak? :('
+
+actions:
+  - utter_greet
+  - utter_thanks
+  - utter_goodbye
+  - action_weather
+  - utter_unclear
