@@ -1,2 +1,12 @@
 ## intent:greet
-- halo min
+- Halo
+- Hai
+- Hi
+- 
+
+## intent:ask
+
+## intent:inform
+
+## intent:thanks
+
