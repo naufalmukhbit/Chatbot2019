@@ -23,7 +23,7 @@
 - ditanamnya tanggal [17 agustus](date) min
 
 ## intent:ask_tanam
-- mau nanem tanaman nih
+- mau nanem tumbuhan nih
 - bagaimana cara menanam [padi](plant)?
 - gimana cara menanam [cabai](plant)?
 - untuk [kopi](plant) itu gimana ya cara menanamnya?
