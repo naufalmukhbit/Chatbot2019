@@ -8,15 +8,10 @@
 - punten
 - assalamualaikum
 - mau tanya dong
-
-## intent:inform_self
+- min mau nanya
 - nama saya [bintang](person)
-- saya [bayu](person)
-- [naufal](person)
-
-## intent:inform_self+skill
-- saya orang awam
-- saya petani
+- saya [bayu](person)   
+- hai min, saya [naufal](person)
 
 ## intent:inform_plant
 - tumbuhan [padi](plant)
@@ -25,34 +20,41 @@
 - tumbuhan [tomat](plant)
 
 ## intent:inform_planting_date
-- ditanamnya tanggal [17 agustus](date)
+- ditanamnya tanggal [17 agustus](date) min
 
 ## intent:ask_tanam
+- mau nanem tanaman nih
 - bagaimana cara menanam [padi](plant)?
 - gimana cara menanam [cabai](plant)?
 - untuk [kopi](plant) itu gimana ya cara menanamnya?
 - tau cara nanem [tomat](plant)?
 - saya mau bercocok tanam [padi](plant), gimana ya?
 - cara menanam [tomat](plant)
-- untuk tanaman [kopi](plant) bagusnya tanah yang seperti apa ya?
-- sebelum menanam [padi](plant), apakah tanahnya harus di bajak dulu?
-- gimana sih cara bajak tanah yang baik dan benar?
 
-## intent:ask_rawat+tempat
+## intent:ask_tanam_tempat
 - buat tanaman [tomat](plant) bagusnya di bawah sinar matahari atau di dalam ruangan ya?
 
-## intent:ask_rawat+siram
+## intent:ask_tanam_tanah
+- buat tanam [kopi](plant) pake tanah apa ya?
+- biasanya [tomat](plant) tuh pake tanah apa sih?
+- untuk tanaman [kopi](plant) bagusnya tanah yang seperti apa ya?
+
+## intent:ask_tanam_tanah_gembur
+- sebelum menanam [padi](plant), apakah tanahnya harus di gemburkan dulu?
+- gimana sih cara bajak tanah yang baik dan benar?
+
+## intent:ask_rawat_siram
 - kalau untuk penyiramannya sehari berapa kali ya?
 - apakah [padi](plant) perlu disiram setiap harinya?
 - untuk penyiramannya sendiri, setiap tanaman itu berapa banyak ya?
 
-## intent:ask_rawat+pupuk
+## intent:ask_rawat_pupuk
 - untuk pupuknya, kira-kira seminggu berapa kali ya?
-- pupuk yang cocok untuk [kopi](plant) apa ya?
-- pupuk yang dipakai untuk [cabai](plant) apa ya?
+- pupuk yang c``ocok untuk [kopi](plant) apa ya?
+- pupuk yang dipake buat [cabai](plant) apa ya?
 - untuk pemberian pupuknya, berapa banyak ya?
 
-## intent:ask_rawat+pupuk+jenis
+## intent:ask_rawat_pupuk_jenis
 - untuk [padi](plant), pupuk apa yang cocok ya?
 - pupuk yang cocok buat [tomat](plant) apa sih?
 - jenis pupuk tuh ngaruh ke hasil panen ga sih?

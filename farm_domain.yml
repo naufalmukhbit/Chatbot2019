@@ -4,12 +4,22 @@ slots:
 
 intents:
   - greet
-  - inform
+  - inform_plant
+  - inform_planting_date
+  - ask_tanam
+  - ask_tanam_tempat
+  - ask_tanam_tanah
+  - ask_tanam_tanah_gembur
+  - ask_rawat_siram
+  - ask_rawat_pupuk
+  - ask_rawat_pupuk_jenis
+  - ask_panen
   - thanks
   - feeling
 
 entities:
   - person
+  - plant
 
 templates:
   utter_greet:
@@ -17,6 +27,28 @@ templates:
   utter_ask_plant:
     - text: 'Tumbuhannya apa ya, kak?'
     - text: 'Tumbuhan apa yang ditanyakan, kak?'
+  utter_ask_tanam_padi:
+    - text: ''
+  utter_ask_tanam_tomat:
+    - text: ''
+  utter_ask_tanam_kopi:
+    - text: ''
+  utter_ask_tanam_cabai:
+    - text: ''
+  utter_ask_tanam_tempat:
+    - text: ''
+  utter_ask_tanam_tanah:
+    - text: ''
+  utter_ask_tanam_tanah_gembur:
+    - text: ''
+  utter_ask_rawat_siram:
+    - text: ''
+  utter_ask_rawat_pupuk:
+    - text: ''
+  utter_ask_rawat_pupuk_jenis:
+    - text: ''
+  utter_ask_panen:
+    - text: ''
   utter_thanks:
     - text: 'Baik kak, senang bisa membantu!'
   utter_unclear:
