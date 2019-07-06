@@ -59,5 +59,6 @@ actions:
   - utter_greet
   - utter_thanks
   - utter_goodbye
-  - action_weather
+  - action_tanam
+  - action_rawat
   - utter_unclear
