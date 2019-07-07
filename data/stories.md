@@ -141,4 +141,15 @@
 * thanks
    - utter_thanks
    - export
-   
+   ## Generated Story -5190935481628469961
+* greet
+    - utter_greet
+* ask_tanam
+    - utter_ask_plant
+* inform_plant{"plant": "kopi"}
+    - slot{"plant": "kopi"}
+    - action_tanam
+    - slot{"plant": "kopi"}
+* thanks
+    - utter_thanks
+

@@ -130,12 +130,24 @@
         "entities": [
           {
             "start": 19,
-            "end": 29,
-            "value": "17 agustus",
+            "end": 34,
+            "value": "17 agustus 2018",
             "entity": "date"
           }
         ],
-        "text": "ditanamnya tanggal 17 agustus min"
+        "text": "ditanamnya tanggal 17 agustus 2018 min"
+      },
+      {
+        "intent": "inform_planting_date",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "26 juli 1998",
+            "entity": "date"
+          }
+        ],
+        "text": "mulai ditanam tanggal 26 juli 1998"
       },
       {
         "intent": "ask_tanam",
@@ -224,6 +236,18 @@
           }
         ],
         "text": "buat tanaman tomat bagusnya di bawah sinar matahari atau di dalam ruangan ya?"
+      },
+      {
+        "intent": "ask_tanam_tempat",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "kopi",
+            "entity": "plant"
+          }
+        ],
+        "text": "buat tanaman kopi bagusnya di bawah sinar matahari atau di dalam ruangan ya?"
       },
       {
         "intent": "ask_tanam_tanah",

@@ -23,4 +23,13 @@ class ActionTanam(Action):
     # terminal code syntax
     # python -m rasa_core_sdk.endpoint --actions action    <- this is bot's brain
     # python -m rasa_core.run -d models/dialogue -u models/nlu/default/farm_nlu --port 5002 --endpoints endpoints.yml --credentials credentials.yml
-    # python -m rasa_core.train interactive -o models/dialogue -d weather_domain.yml -s data/stories.md --nlu models/nlu/default/weather_nlu --endpoints endpoints.yml
+    # python -m rasa_core.train interactive -o models/dialogue -d farm_domain.yml -s data/stories.md --nlu models/nlu/default/farm_nlu --endpoints endpoints.yml
+
+    # note:
+    # CTRL+C for export chat, restart chat, etc.
+
+
+
+
+
+

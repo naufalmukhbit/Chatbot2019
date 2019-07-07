@@ -1,43 +1,61 @@
 %YAML 1.1
 ---
 actions:
-- utter_ask_rawat_pupuk
 - utter_greet
-- utter_ask_rawat_siram
-- utter_unclear
-- utter_ask_panen
-- utter_ask_tanam_tanah_gembur
-- action_tanam
-- utter_ask_tanam_tempat
-- utter_ask_tanam_kopi
 - utter_thanks
-- utter_ask_tanam_tanah
-- utter_ask_tanam_tomat
+- utter_ask_panen
 - utter_ask_rawat_pupuk_jenis
-- utter_ask_plant
-- utter_ask_tanam_padi
+- utter_ask_rawat_pupuk
+- utter_ask_rawat_siram
+- utter_ask_tanam_tanah_gembur
+- utter_ask_tanam_tanah
+- utter_ask_tanam_tempat
 - utter_ask_tanam_cabai
+- utter_ask_tanam_kopi
+- utter_ask_tanam_tomat
+- utter_ask_tanam_padi
+- utter_ask_plant
+- utter_unclear
+- action_tanam
+config:
+  store_entities_as_slots: true
 entities:
 - person
 - plant
 - date
+forms: []
 intents:
-- thanks
-- greet
-- inform_plant
-- ask_tanam
-- inform_planting_date
-- ask_tanam_tempat
-- ask_tanam_tanah
-- ask_tanam_tanah_gembur
-- ask_rawat_siram
-- ask_rawat_pupuk
-- ask_rawat_pupuk_jenis
-- ask_panen
-- feeling
+- greet:
+    use_entities: true
+- inform_plant:
+    use_entities: true
+- inform_planting_date:
+    use_entities: true
+- ask_tanam:
+    use_entities: true
+- ask_tanam_tempat:
+    use_entities: true
+- ask_tanam_tanah:
+    use_entities: true
+- ask_tanam_tanah_gembur:
+    use_entities: true
+- ask_rawat_siram:
+    use_entities: true
+- ask_rawat_pupuk:
+    use_entities: true
+- ask_rawat_pupuk_jenis:
+    use_entities: true
+- ask_panen:
+    use_entities: true
+- thanks:
+    use_entities: true
+- feeling:
+    use_entities: true
 slots:
   plant:
-    type: text
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
 templates:
   utter_ask_panen:
   - text: saatnya panen
