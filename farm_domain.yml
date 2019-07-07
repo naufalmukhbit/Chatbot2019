@@ -20,6 +20,7 @@ intents:
 entities:
   - person
   - plant
+  - date
 
 templates:
   utter_greet:
@@ -58,7 +59,8 @@ templates:
 actions:
   - utter_greet
   - utter_thanks
-  - utter_goodbye
-  - action_tanam
-  - action_rawat
+  - utter_ask_panen
+  - utter_ask_rawat_pupuk_jenis
+  - utter
   - utter_unclear
+  - action_tanam

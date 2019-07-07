@@ -1,0 +1,8 @@
+Rasa process starting
+Rasa process starting
+Rasa process starting
+From C:\Users\Asus.DESKTOP-4PF9MH4\AppData\Local\Programs\Python\Python36\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+Restoring parameters from models/nlu/default/farm_nlu\component_4_EmbeddingIntentClassifier.ckpt
+Scheduler started

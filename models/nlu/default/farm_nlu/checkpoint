@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Asus.DESKTOP-4PF9MH4\\Documents\\GitHub\\Chatbot2019\\./models/nlu/default\\farm_nlu\\component_4_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Asus.DESKTOP-4PF9MH4\\Documents\\GitHub\\Chatbot2019\\./models/nlu/default\\farm_nlu\\component_4_EmbeddingIntentClassifier.ckpt"
