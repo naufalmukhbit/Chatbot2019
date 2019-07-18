@@ -1,31 +1,31 @@
 %YAML 1.1
 ---
 actions:
-- utter_ask_rawat_pupuk
 - utter_greet
-- utter_ask_rawat_siram
-- utter_unclear
-- utter_ask_panen
-- utter_ask_tanam_tanah_gembur
-- action_tanam
-- utter_ask_tanam_tempat
 - utter_ask_tanam_kopi
-- utter_thanks
-- utter_ask_tanam_tanah
-- utter_ask_tanam_tomat
-- utter_ask_rawat_pupuk_jenis
 - utter_ask_plant
 - utter_ask_tanam_padi
+- utter_ask_rawat_siram
+- utter_ask_tanam_tanah
+- utter_ask_panen
+- utter_ask_tanam_tanah_gembur
+- utter_ask_rawat_pupuk
+- action_tanam
+- utter_ask_tanam_tomat
+- utter_ask_rawat_pupuk_jenis
+- utter_thanks
+- utter_ask_tanam_tempat
 - utter_ask_tanam_cabai
+- utter_unclear
 entities:
-- person
-- plant
 - date
+- plant
+- person
 intents:
-- thanks
-- greet
 - inform_plant
+- thanks
 - ask_tanam
+- greet
 - inform_planting_date
 - ask_tanam_tempat
 - ask_tanam_tanah
@@ -41,6 +41,7 @@ slots:
 templates:
   utter_ask_panen:
   - text: saatnya panen
+    image: "ini linknya"
   utter_ask_plant:
   - text: Tumbuhannya apa ya, kak?
   - text: Tumbuhan apa yang ditanyakan, kak?

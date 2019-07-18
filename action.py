@@ -11,7 +11,7 @@ class ActionTanam(Action):
     def run(self, dispatcher, tracker, domain):
         plant = tracker.get_slot('plant')
 
-        response = """ tanam {} tinggal tanam, goblog!""".format(plant)
+        response = """cara nanem {} yagitu!""".format(plant)
         dispatcher.utter_message(response)
         return [SlotSet('plant', plant)]
 

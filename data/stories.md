@@ -153,3 +153,20 @@
 * thanks
     - utter_thanks
 
+## Generated Story -659130952870419651
+* greet
+    - utter_greet
+* ask_tanam
+    - utter_ask_plant
+* inform_plant{"plant": "rafflesia"}
+    - slot{"plant": "rafflesia"}
+    - action_tanam
+    - slot{"plant": "rafflesia"}
+* thanks
+    - utter_thanks
+    - utter_unclear
+    - action_default_fallback
+    - rewind
+
+## Generated Story 0
+

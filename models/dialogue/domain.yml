@@ -1,22 +1,22 @@
 %YAML 1.1
 ---
 actions:
-- utter_greet
-- utter_thanks
-- utter_ask_panen
-- utter_ask_rawat_pupuk_jenis
 - utter_ask_rawat_pupuk
+- utter_greet
 - utter_ask_rawat_siram
-- utter_ask_tanam_tanah_gembur
-- utter_ask_tanam_tanah
-- utter_ask_tanam_tempat
-- utter_ask_tanam_cabai
-- utter_ask_tanam_kopi
-- utter_ask_tanam_tomat
-- utter_ask_tanam_padi
-- utter_ask_plant
 - utter_unclear
+- utter_ask_panen
+- utter_ask_tanam_tanah_gembur
 - action_tanam
+- utter_ask_tanam_tempat
+- utter_ask_tanam_kopi
+- utter_thanks
+- utter_ask_tanam_tanah
+- utter_ask_tanam_tomat
+- utter_ask_rawat_pupuk_jenis
+- utter_ask_plant
+- utter_ask_tanam_padi
+- utter_ask_tanam_cabai
 config:
   store_entities_as_slots: true
 entities:
@@ -25,13 +25,15 @@ entities:
 - date
 forms: []
 intents:
+- thanks:
+    use_entities: true
 - greet:
     use_entities: true
 - inform_plant:
     use_entities: true
-- inform_planting_date:
-    use_entities: true
 - ask_tanam:
+    use_entities: true
+- inform_planting_date:
     use_entities: true
 - ask_tanam_tempat:
     use_entities: true
@@ -46,8 +48,6 @@ intents:
 - ask_rawat_pupuk_jenis:
     use_entities: true
 - ask_panen:
-    use_entities: true
-- thanks:
     use_entities: true
 - feeling:
     use_entities: true

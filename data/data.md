@@ -29,6 +29,7 @@
 - saya mau bercocok tanam [padi](plant), gimana ya?
 - cara menanam [tomat](plant)
 - saya mau coba tanam tumbuhan nih
+- mau nanem nih
 
 ## intent:ask_tanam_tanah
 - buat tanam [kopi](plant) pake tanah apa ya?
@@ -58,6 +59,7 @@
 - saya [bayu](person)
 - hai min, saya [naufal](person)
 - halo bot
+- hi
 
 ## intent:inform_plant
 - tumbuhan [padi](plant)
@@ -65,6 +67,7 @@
 - [kopi](plant)
 - tumbuhan [tomat](plant)
 - [kopi](plant)
+- [rafflesia](plant)
 
 ## intent:inform_planting_date
 - ditanamnya tanggal [17 agustus 2018](date) min
@@ -77,3 +80,4 @@
 - thanks
 - hatur nuhun
 - okee makasih bot
+- okee makasih yaa bot
