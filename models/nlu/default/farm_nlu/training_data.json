@@ -2,294 +2,6 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "ask_panen",
-        "entities": [
-          {
-            "start": 0,
-            "end": 4,
-            "value": "kopi",
-            "entity": "plant"
-          }
-        ],
-        "text": "kopi saya kapan ya panennya?"
-      },
-      {
-        "intent": "ask_panen",
-        "entities": [
-          {
-            "start": 21,
-            "end": 26,
-            "value": "tomat",
-            "entity": "plant"
-          }
-        ],
-        "text": "kira-kira buat panen tomat berapa lama ya?"
-      },
-      {
-        "intent": "ask_panen",
-        "entities": [
-          {
-            "start": 6,
-            "end": 11,
-            "value": "tomat",
-            "entity": "plant"
-          }
-        ],
-        "text": "panen tomat lama ga ya?"
-      },
-      {
-        "intent": "ask_panen",
-        "entities": [
-          {
-            "start": 6,
-            "end": 10,
-            "value": "padi",
-            "entity": "plant"
-          }
-        ],
-        "text": "panen padi butuh berapa hari ya?"
-      },
-      {
-        "intent": "ask_rawat_pupuk",
-        "text": "untuk pupuknya, kira-kira seminggu berapa kali ya?"
-      },
-      {
-        "intent": "ask_rawat_pupuk",
-        "entities": [
-          {
-            "start": 25,
-            "end": 29,
-            "value": "kopi",
-            "entity": "plant"
-          }
-        ],
-        "text": "pupuk yang c``ocok untuk kopi apa ya?"
-      },
-      {
-        "intent": "ask_rawat_pupuk",
-        "entities": [
-          {
-            "start": 23,
-            "end": 28,
-            "value": "cabai",
-            "entity": "plant"
-          }
-        ],
-        "text": "pupuk yang dipake buat cabai apa ya?"
-      },
-      {
-        "intent": "ask_rawat_pupuk",
-        "text": "untuk pemberian pupuknya, berapa banyak ya?"
-      },
-      {
-        "intent": "ask_rawat_pupuk_jenis",
-        "entities": [
-          {
-            "start": 6,
-            "end": 10,
-            "value": "padi",
-            "entity": "plant"
-          }
-        ],
-        "text": "untuk padi, pupuk apa yang cocok ya?"
-      },
-      {
-        "intent": "ask_rawat_pupuk_jenis",
-        "entities": [
-          {
-            "start": 22,
-            "end": 27,
-            "value": "tomat",
-            "entity": "plant"
-          }
-        ],
-        "text": "pupuk yang cocok buat tomat apa sih?"
-      },
-      {
-        "intent": "ask_rawat_pupuk_jenis",
-        "text": "jenis pupuk tuh ngaruh ke hasil panen ga sih?"
-      },
-      {
-        "intent": "ask_rawat_siram",
-        "text": "kalau untuk penyiramannya sehari berapa kali ya?"
-      },
-      {
-        "intent": "ask_rawat_siram",
-        "entities": [
-          {
-            "start": 7,
-            "end": 11,
-            "value": "padi",
-            "entity": "plant"
-          }
-        ],
-        "text": "apakah padi perlu disiram setiap harinya?"
-      },
-      {
-        "intent": "ask_rawat_siram",
-        "text": "untuk penyiramannya sendiri, setiap tanaman itu berapa banyak ya?"
-      },
-      {
-        "intent": "ask_tanam",
-        "text": "mau nanem tumbuhan nih"
-      },
-      {
-        "intent": "ask_tanam",
-        "entities": [
-          {
-            "start": 23,
-            "end": 27,
-            "value": "padi",
-            "entity": "plant"
-          }
-        ],
-        "text": "bagaimana cara menanam padi?"
-      },
-      {
-        "intent": "ask_tanam",
-        "entities": [
-          {
-            "start": 20,
-            "end": 25,
-            "value": "cabai",
-            "entity": "plant"
-          }
-        ],
-        "text": "gimana cara menanam cabai?"
-      },
-      {
-        "intent": "ask_tanam",
-        "entities": [
-          {
-            "start": 6,
-            "end": 10,
-            "value": "kopi",
-            "entity": "plant"
-          }
-        ],
-        "text": "untuk kopi itu gimana ya cara menanamnya?"
-      },
-      {
-        "intent": "ask_tanam",
-        "entities": [
-          {
-            "start": 15,
-            "end": 20,
-            "value": "tomat",
-            "entity": "plant"
-          }
-        ],
-        "text": "tau cara nanem tomat?"
-      },
-      {
-        "intent": "ask_tanam",
-        "entities": [
-          {
-            "start": 24,
-            "end": 28,
-            "value": "padi",
-            "entity": "plant"
-          }
-        ],
-        "text": "saya mau bercocok tanam padi, gimana ya?"
-      },
-      {
-        "intent": "ask_tanam",
-        "entities": [
-          {
-            "start": 13,
-            "end": 18,
-            "value": "tomat",
-            "entity": "plant"
-          }
-        ],
-        "text": "cara menanam tomat"
-      },
-      {
-        "intent": "ask_tanam",
-        "text": "saya mau coba tanam tumbuhan nih"
-      },
-      {
-        "intent": "ask_tanam",
-        "text": "mau nanem nih"
-      },
-      {
-        "intent": "ask_tanam_tanah",
-        "entities": [
-          {
-            "start": 11,
-            "end": 15,
-            "value": "kopi",
-            "entity": "plant"
-          }
-        ],
-        "text": "buat tanam kopi pake tanah apa ya?"
-      },
-      {
-        "intent": "ask_tanam_tanah",
-        "entities": [
-          {
-            "start": 9,
-            "end": 14,
-            "value": "tomat",
-            "entity": "plant"
-          }
-        ],
-        "text": "biasanya tomat tuh pake tanah apa sih?"
-      },
-      {
-        "intent": "ask_tanam_tanah",
-        "entities": [
-          {
-            "start": 14,
-            "end": 18,
-            "value": "kopi",
-            "entity": "plant"
-          }
-        ],
-        "text": "untuk tanaman kopi bagusnya tanah yang seperti apa ya?"
-      },
-      {
-        "intent": "ask_tanam_tanah_gembur",
-        "entities": [
-          {
-            "start": 16,
-            "end": 20,
-            "value": "padi",
-            "entity": "plant"
-          }
-        ],
-        "text": "sebelum menanam padi, apakah tanahnya harus di gemburkan dulu?"
-      },
-      {
-        "intent": "ask_tanam_tanah_gembur",
-        "text": "gimana sih cara bajak tanah yang baik dan benar?"
-      },
-      {
-        "intent": "ask_tanam_tempat",
-        "entities": [
-          {
-            "start": 13,
-            "end": 18,
-            "value": "tomat",
-            "entity": "plant"
-          }
-        ],
-        "text": "buat tanaman tomat bagusnya di bawah sinar matahari atau di dalam ruangan ya?"
-      },
-      {
-        "intent": "ask_tanam_tempat",
-        "entities": [
-          {
-            "start": 13,
-            "end": 17,
-            "value": "kopi",
-            "entity": "plant"
-          }
-        ],
-        "text": "buat tanaman kopi bagusnya di bawah sinar matahari atau di dalam ruangan ya?"
-      },
-      {
         "intent": "greet",
         "text": "halo"
       },
@@ -300,6 +12,14 @@
       {
         "intent": "greet",
         "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "bot"
+      },
+      {
+        "intent": "greet",
+        "text": "halo bot"
       },
       {
         "intent": "greet",
@@ -327,63 +47,123 @@
       },
       {
         "intent": "greet",
-        "text": "min mau nanya"
+        "text": "bot mau nanya"
       },
       {
-        "intent": "greet",
+        "intent": "ask_tanam",
+        "text": "mau nanem tumbuhan nih"
+      },
+      {
+        "intent": "ask_tanam",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "kangkung",
+            "entity": "plant"
+          }
+        ],
+        "text": "bagaimana cara menanam kangkung?"
+      },
+      {
+        "intent": "ask_tanam",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "cabai",
+            "entity": "plant"
+          }
+        ],
+        "text": "gimana cara menanam cabai?"
+      },
+      {
+        "intent": "ask_tanam",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "sawi",
+            "entity": "plant"
+          }
+        ],
+        "text": "untuk sawi itu gimana ya cara menanamnya?"
+      },
+      {
+        "intent": "ask_tanam",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "tomat",
+            "entity": "plant"
+          }
+        ],
+        "text": "tau cara nanem tomat?"
+      },
+      {
+        "intent": "ask_tanam",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "cabai",
+            "entity": "plant"
+          }
+        ],
+        "text": "saya mau bercocok tanam cabai, gimana ya?"
+      },
+      {
+        "intent": "ask_tanam",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "tomat",
+            "entity": "plant"
+          }
+        ],
+        "text": "cara menanam tomat"
+      },
+      {
+        "intent": "ask_tanam",
+        "text": "saya mau coba tanam tumbuhan nih"
+      },
+      {
+        "intent": "ask_tanam",
         "entities": [
           {
             "start": 10,
-            "end": 17,
-            "value": "bintang",
-            "entity": "person"
+            "end": 14,
+            "value": "sawi",
+            "entity": "plant"
           }
         ],
-        "text": "nama saya bintang"
+        "text": "mau nanem sawinih"
       },
       {
-        "intent": "greet",
+        "intent": "ask_tanam",
         "entities": [
           {
-            "start": 5,
-            "end": 9,
-            "value": "bayu",
-            "entity": "person"
+            "start": 18,
+            "end": 26,
+            "value": "kangkung",
+            "entity": "plant"
           }
         ],
-        "text": "saya bayu"
-      },
-      {
-        "intent": "greet",
-        "entities": [
-          {
-            "start": 14,
-            "end": 20,
-            "value": "naufal",
-            "entity": "person"
-          }
-        ],
-        "text": "hai min, saya naufal"
-      },
-      {
-        "intent": "greet",
-        "text": "halo bot"
-      },
-      {
-        "intent": "greet",
-        "text": "hi"
+        "text": "ajarin cara tanam kangkung dong"
       },
       {
         "intent": "inform_plant",
         "entities": [
           {
             "start": 9,
-            "end": 13,
-            "value": "padi",
+            "end": 17,
+            "value": "kangkung",
             "entity": "plant"
           }
         ],
-        "text": "tumbuhan padi"
+        "text": "tumbuhan kangkung"
       },
       {
         "intent": "inform_plant",
@@ -395,19 +175,7 @@
             "entity": "plant"
           }
         ],
-        "text": "tanamannya cabai min"
-      },
-      {
-        "intent": "inform_plant",
-        "entities": [
-          {
-            "start": 0,
-            "end": 4,
-            "value": "kopi",
-            "entity": "plant"
-          }
-        ],
-        "text": "kopi"
+        "text": "tanamannya cabai bot"
       },
       {
         "intent": "inform_plant",
@@ -426,24 +194,212 @@
         "entities": [
           {
             "start": 0,
-            "end": 4,
-            "value": "kopi",
+            "end": 5,
+            "value": "cabai",
             "entity": "plant"
           }
         ],
-        "text": "kopi"
+        "text": "cabai"
       },
       {
         "intent": "inform_plant",
         "entities": [
           {
             "start": 0,
-            "end": 9,
-            "value": "rafflesia",
+            "end": 5,
+            "value": "tomat",
             "entity": "plant"
           }
         ],
-        "text": "rafflesia"
+        "text": "tomat"
+      },
+      {
+        "intent": "inform_plant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "kangkung",
+            "entity": "plant"
+          }
+        ],
+        "text": "kangkung"
+      },
+      {
+        "intent": "inform_plant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "sawi",
+            "entity": "plant"
+          }
+        ],
+        "text": "sawi"
+      },
+      {
+        "intent": "inform_pot",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "botol",
+            "entity": "pot"
+          }
+        ],
+        "text": "saya mau menanam di botol"
+      },
+      {
+        "intent": "inform_pot",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "polybag",
+            "entity": "pot"
+          }
+        ],
+        "text": "pakai polybag saja"
+      },
+      {
+        "intent": "inform_pot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "polybag",
+            "entity": "pot"
+          }
+        ],
+        "text": "polybag"
+      },
+      {
+        "intent": "inform_pot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "botol",
+            "entity": "pot"
+          }
+        ],
+        "text": "botol"
+      },
+      {
+        "intent": "ask_pupuk",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "sawi",
+            "entity": "plant"
+          }
+        ],
+        "text": "buat tanam sawi pake pupuk apa ya?"
+      },
+      {
+        "intent": "ask_pupuk",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "tomat",
+            "entity": "plant"
+          }
+        ],
+        "text": "biasanya tomat tuh pake pupuk apa sih?"
+      },
+      {
+        "intent": "ask_pupuk",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "cabai",
+            "entity": "plant"
+          }
+        ],
+        "text": "untuk tanaman cabai bagusnya pupuk yang seperti apa ya?"
+      },
+      {
+        "intent": "ask_pupuk",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "kangkung",
+            "entity": "plant"
+          }
+        ],
+        "text": "pupuk yang cocok untuk kangkung apa ya?"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "text": "kalau untuk penyiramannya sehari berapa kali ya?"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "padi",
+            "entity": "plant"
+          }
+        ],
+        "text": "apakah padi perlu disiram setiap harinya?"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "text": "untuk penyiramannya sendiri, setiap tanaman itu berapa banyak ya?"
+      },
+      {
+        "intent": "ask_panen",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "kangkung",
+            "entity": "plant"
+          }
+        ],
+        "text": "kangkung saya kapan ya panennya?"
+      },
+      {
+        "intent": "ask_panen",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "tomat",
+            "entity": "plant"
+          }
+        ],
+        "text": "kira-kira buat panen tomat berapa lama ya?"
+      },
+      {
+        "intent": "ask_panen",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "cabai",
+            "entity": "plant"
+          }
+        ],
+        "text": "panen cabai lama ga ya?"
+      },
+      {
+        "intent": "ask_panen",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "sawi",
+            "entity": "plant"
+          }
+        ],
+        "text": "panen sawi butuh berapa hari ya?"
       },
       {
         "intent": "inform_planting_date",
@@ -468,6 +424,38 @@
           }
         ],
         "text": "mulai ditanam tanggal 26 juli 1998"
+      },
+      {
+        "intent": "accept",
+        "text": "oke deh"
+      },
+      {
+        "intent": "accept",
+        "text": "ohh gitu"
+      },
+      {
+        "intent": "accept",
+        "text": "ok"
+      },
+      {
+        "intent": "accept",
+        "text": "ashiap"
+      },
+      {
+        "intent": "accept",
+        "text": "mantapp"
+      },
+      {
+        "intent": "enough",
+        "text": "udah paling gitu aja"
+      },
+      {
+        "intent": "enough",
+        "text": "segitu dulu"
+      },
+      {
+        "intent": "enough",
+        "text": "cukup"
       },
       {
         "intent": "thanks",

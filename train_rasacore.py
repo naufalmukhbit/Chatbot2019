@@ -7,7 +7,6 @@ from rasa_core.policies import FallbackPolicy
 
 if __name__ == '__main__':
     logging.basicConfig(level="INFO")
-
     model_path = './models/dialogue'
 
     # this will catch predictions the model isn't very certain about

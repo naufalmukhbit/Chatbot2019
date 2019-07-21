@@ -1,19 +1,22 @@
+## intent:accept
+- oke deh
+- ohh gitu
+- ok
+- ashiap
+- mantapp
+- wihh mantap
+
 ## intent:ask_panen
-- [kopi](plant) saya kapan ya panennya?
+- [kangkung](plant) saya kapan ya panennya?
 - kira-kira buat panen [tomat](plant) berapa lama ya?
-- panen [tomat](plant) lama ga ya?
-- panen [padi](plant) butuh berapa hari ya?
+- panen [cabai](plant) lama ga ya?
+- panen [sawi](plant) butuh berapa hari ya?
 
-## intent:ask_rawat_pupuk
-- untuk pupuknya, kira-kira seminggu berapa kali ya?
-- pupuk yang c``ocok untuk [kopi](plant) apa ya?
-- pupuk yang dipake buat [cabai](plant) apa ya?
-- untuk pemberian pupuknya, berapa banyak ya?
-
-## intent:ask_rawat_pupuk_jenis
-- untuk [padi](plant), pupuk apa yang cocok ya?
-- pupuk yang cocok buat [tomat](plant) apa sih?
-- jenis pupuk tuh ngaruh ke hasil panen ga sih?
+## intent:ask_pupuk
+- buat tanam [sawi](plant) pake pupuk apa ya?
+- biasanya [tomat](plant) tuh pake pupuk apa sih?
+- untuk tanaman [cabai](plant) bagusnya pupuk yang seperti apa ya?
+- pupuk yang cocok untuk [kangkung](plant) apa ya?
 
 ## intent:ask_rawat_siram
 - kalau untuk penyiramannya sehari berapa kali ya?
@@ -22,56 +25,57 @@
 
 ## intent:ask_tanam
 - mau nanem tumbuhan nih
-- bagaimana cara menanam [padi](plant)?
+- bagaimana cara menanam [kangkung](plant)?
 - gimana cara menanam [cabai](plant)?
-- untuk [kopi](plant) itu gimana ya cara menanamnya?
+- untuk [sawi](plant) itu gimana ya cara menanamnya?
 - tau cara nanem [tomat](plant)?
-- saya mau bercocok tanam [padi](plant), gimana ya?
+- saya mau bercocok tanam [cabai](plant), gimana ya?
 - cara menanam [tomat](plant)
 - saya mau coba tanam tumbuhan nih
-- mau nanem nih
+- mau nanem [sawi](plant)nih
+- ajarin cara tanam [kangkung](plant) dong
+- saya mau mencoba tanam tanaman hidroponik nih
 
-## intent:ask_tanam_tanah
-- buat tanam [kopi](plant) pake tanah apa ya?
-- biasanya [tomat](plant) tuh pake tanah apa sih?
-- untuk tanaman [kopi](plant) bagusnya tanah yang seperti apa ya?
-
-## intent:ask_tanam_tanah_gembur
-- sebelum menanam [padi](plant), apakah tanahnya harus di gemburkan dulu?
-- gimana sih cara bajak tanah yang baik dan benar?
-
-## intent:ask_tanam_tempat
-- buat tanaman [tomat](plant) bagusnya di bawah sinar matahari atau di dalam ruangan ya?
-- buat tanaman [kopi](plant) bagusnya di bawah sinar matahari atau di dalam ruangan ya?
+## intent:enough
+- udah paling gitu aja
+- segitu dulu
+- cukup
 
 ## intent:greet
 - halo
 - hai
 - hi
+- bot
+- halo bot
 - selamat pagi
 - selamat siang
 - selamat malam
 - punten
 - assalamualaikum
 - mau tanya dong
-- min mau nanya
-- nama saya [bintang](person)
-- saya [bayu](person)
-- hai min, saya [naufal](person)
-- halo bot
-- hi
+- bot mau nanya
+- hai bot, mau minta bantuannya dong
 
 ## intent:inform_plant
-- tumbuhan [padi](plant)
-- tanamannya [cabai](plant) min
-- [kopi](plant)
+- tumbuhan [kangkung](plant)
+- tanamannya [cabai](plant) bot
 - tumbuhan [tomat](plant)
-- [kopi](plant)
-- [rafflesia](plant)
+- [cabai](plant)
+- [tomat](plant)
+- [kangkung](plant)
+- [sawi](plant)
+- saya mau coba tanaman [cabai](plant)
 
 ## intent:inform_planting_date
 - ditanamnya tanggal [17 agustus 2018](date) min
 - mulai ditanam tanggal [26 juli 1998](date)
+
+## intent:inform_pot
+- saya mau menanam di [botol](pot)
+- pakai [polybag](pot) saja
+- [polybag](pot)
+- [botol](pot)
+- di [polybag](pot) aja
 
 ## intent:thanks
 - terima kasih
@@ -81,3 +85,4 @@
 - hatur nuhun
 - okee makasih bot
 - okee makasih yaa bot
+- cukup, terima kasih yaa bot
