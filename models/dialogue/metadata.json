@@ -2,11 +2,22 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
+        "plant",
+        "pot"
+      ]
+    },
+    "action_tanam_tomat_polybag": {
+      "slots": [
         "plant"
       ]
     },
     "utter_thanks": {
       "slots": []
+    },
+    "action_tanam_cabai_polybag": {
+      "slots": [
+        "plant"
+      ]
     }
   },
   "python": "3.6.5",
@@ -25,7 +36,7 @@
     "rasa_core.policies.form_policy.FormPolicy",
     "rasa_core.policies.mapping_policy.MappingPolicy"
   ],
-  "trained_at": "20190722-022117",
+  "trained_at": "20190722-095444",
   "rasa_core": "0.14.5",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.3"

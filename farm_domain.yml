@@ -1,43 +1,43 @@
 %YAML 1.1
 ---
 actions:
-- utter_inform_siram_cabai
+- action_tanam_cabai_botol
+- utter_inform_panen
+- utter_ask_date
+- action_tanam_kangkung_polybag
+- action_tanam_cabai_polybag
 - utter_inform_pupuk_kangkung
+- utter_thanks
+- utter_inform_siram_sawi
+- utter_inform_pupuk_tomat
+- utter_tanya_lagi
 - utter_ask_pot
 - action_tanam_tomat_polybag
-- utter_inform_siram_sawi
-- utter_tanya_lagi
-- utter_thanks
-- utter_inform_panen
-- utter_inform_siram_kangkung
-- action_tanam_kangkung_polybag
-- utter_inform_siram_tomat
-- utter_inform_pupuk_sawi
-- utter_greet
-- utter_inform_pupuk_tomat
 - action_tanam_kangkung_botol
-- action_tanam_cabai_botol
-- utter_ask_plant
-- action_tanam_tomat_botol
-- action_tanam_sawi_botol
-- utter_ask_date
+- utter_inform_siram_cabai
 - action_tanam_sawi_polybag
-- action_tanam_cabai_polybag
+- utter_inform_siram_kangkung
 - utter_unclear
+- action_tanam_tomat_botol
+- utter_greet
+- utter_ask_plant
+- action_tanam_sawi_botol
+- utter_inform_siram_tomat
 - utter_inform_pupuk_cabai
+- utter_inform_pupuk_sawi
 entities:
-- pot
-- plant
 - date
+- plant
+- pot
 intents:
+- ask_tanam
+- greet
+- inform_pot
 - accept
 - thanks
-- ask_tanam
-- inform_pot
-- greet
 - inform_plant
-- ask_pupuk
 - ask_rawat_siram
+- ask_pupuk
 - ask_panen
 - inform_planting_date
 - enough
@@ -84,5 +84,4 @@ templates:
   utter_thanks:
   - text: Baik kak, senang bisa membantu!
   utter_unclear:
-  - text: Maaf bagaimana ya kak? Saya nggak ngerti nih...
-  - text: Bisa tolong diperjelas kak? :(
+  - text: untuk layanan tersebut masih belum tersedia kak. Bot minta maaf yaa....

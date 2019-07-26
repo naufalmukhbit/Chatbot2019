@@ -5,6 +5,7 @@
 - ashiap
 - mantapp
 - wihh mantap
+- oh gitu, yaudah entar saya coba min
 
 ## intent:ask_panen
 - [kangkung](plant) saya kapan ya panennya?
@@ -22,6 +23,7 @@
 - kalau untuk penyiramannya sehari berapa kali ya?
 - apakah [padi](plant) perlu disiram setiap harinya?
 - untuk penyiramannya sendiri, setiap tanaman itu berapa banyak ya?
+- kalo cara rawat [tomat](plant) gimana?
 
 ## intent:ask_tanam
 - mau nanem tumbuhan nih
@@ -35,6 +37,8 @@
 - mau nanem [sawi](plant)nih
 - ajarin cara tanam [kangkung](plant) dong
 - saya mau mencoba tanam tanaman hidroponik nih
+- cara nanem [tomat](plant) gimana sih?
+- mau nanem dong min
 
 ## intent:enough
 - udah paling gitu aja
@@ -55,6 +59,9 @@
 - mau tanya dong
 - bot mau nanya
 - hai bot, mau minta bantuannya dong
+- hi
+- mau nanya nih
+- assalamualaikum
 
 ## intent:inform_plant
 - tumbuhan [kangkung](plant)
@@ -65,6 +72,7 @@
 - [kangkung](plant)
 - [sawi](plant)
 - saya mau coba tanaman [cabai](plant)
+- [cabe](plant) dong
 
 ## intent:inform_planting_date
 - ditanamnya tanggal [17 agustus 2018](date) min
@@ -76,6 +84,9 @@
 - [polybag](pot)
 - [botol](pot)
 - di [polybag](pot) aja
+- [polybag](pot) dulu deh
+- kalau [gelas](pot) gaada ya min?
+- oh yaudah [polybag](pot) aja deh
 
 ## intent:thanks
 - terima kasih
@@ -86,3 +97,5 @@
 - okee makasih bot
 - okee makasih yaa bot
 - cukup, terima kasih yaa bot
+- oke makasih bot
+- gaada min, yaudah makasih

@@ -2,52 +2,144 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "greet",
-        "text": "halo"
+        "intent": "accept",
+        "text": "oke deh"
       },
       {
-        "intent": "greet",
-        "text": "hai"
+        "intent": "accept",
+        "text": "ohh gitu"
       },
       {
-        "intent": "greet",
-        "text": "hi"
+        "intent": "accept",
+        "text": "ok"
       },
       {
-        "intent": "greet",
-        "text": "bot"
+        "intent": "accept",
+        "text": "ashiap"
       },
       {
-        "intent": "greet",
-        "text": "halo bot"
+        "intent": "accept",
+        "text": "mantapp"
       },
       {
-        "intent": "greet",
-        "text": "selamat pagi"
+        "intent": "accept",
+        "text": "wihh mantap"
       },
       {
-        "intent": "greet",
-        "text": "selamat siang"
+        "intent": "ask_panen",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "kangkung",
+            "entity": "plant"
+          }
+        ],
+        "text": "kangkung saya kapan ya panennya?"
       },
       {
-        "intent": "greet",
-        "text": "selamat malam"
+        "intent": "ask_panen",
+        "entities": [
+          {
+            "start": 21,
+            "end": 26,
+            "value": "tomat",
+            "entity": "plant"
+          }
+        ],
+        "text": "kira-kira buat panen tomat berapa lama ya?"
       },
       {
-        "intent": "greet",
-        "text": "punten"
+        "intent": "ask_panen",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "cabai",
+            "entity": "plant"
+          }
+        ],
+        "text": "panen cabai lama ga ya?"
       },
       {
-        "intent": "greet",
-        "text": "assalamualaikum"
+        "intent": "ask_panen",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "sawi",
+            "entity": "plant"
+          }
+        ],
+        "text": "panen sawi butuh berapa hari ya?"
       },
       {
-        "intent": "greet",
-        "text": "mau tanya dong"
+        "intent": "ask_pupuk",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "sawi",
+            "entity": "plant"
+          }
+        ],
+        "text": "buat tanam sawi pake pupuk apa ya?"
       },
       {
-        "intent": "greet",
-        "text": "bot mau nanya"
+        "intent": "ask_pupuk",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "tomat",
+            "entity": "plant"
+          }
+        ],
+        "text": "biasanya tomat tuh pake pupuk apa sih?"
+      },
+      {
+        "intent": "ask_pupuk",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "cabai",
+            "entity": "plant"
+          }
+        ],
+        "text": "untuk tanaman cabai bagusnya pupuk yang seperti apa ya?"
+      },
+      {
+        "intent": "ask_pupuk",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "kangkung",
+            "entity": "plant"
+          }
+        ],
+        "text": "pupuk yang cocok untuk kangkung apa ya?"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "text": "kalau untuk penyiramannya sehari berapa kali ya?"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "padi",
+            "entity": "plant"
+          }
+        ],
+        "text": "apakah padi perlu disiram setiap harinya?"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "text": "untuk penyiramannya sendiri, setiap tanaman itu berapa banyak ya?"
       },
       {
         "intent": "ask_tanam",
@@ -154,6 +246,74 @@
         "text": "ajarin cara tanam kangkung dong"
       },
       {
+        "intent": "ask_tanam",
+        "text": "saya mau mencoba tanam tanaman hidroponik nih"
+      },
+      {
+        "intent": "enough",
+        "text": "udah paling gitu aja"
+      },
+      {
+        "intent": "enough",
+        "text": "segitu dulu"
+      },
+      {
+        "intent": "enough",
+        "text": "cukup"
+      },
+      {
+        "intent": "greet",
+        "text": "halo"
+      },
+      {
+        "intent": "greet",
+        "text": "hai"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "bot"
+      },
+      {
+        "intent": "greet",
+        "text": "halo bot"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat pagi"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat siang"
+      },
+      {
+        "intent": "greet",
+        "text": "selamat malam"
+      },
+      {
+        "intent": "greet",
+        "text": "punten"
+      },
+      {
+        "intent": "greet",
+        "text": "assalamualaikum"
+      },
+      {
+        "intent": "greet",
+        "text": "mau tanya dong"
+      },
+      {
+        "intent": "greet",
+        "text": "bot mau nanya"
+      },
+      {
+        "intent": "greet",
+        "text": "hai bot, mau minta bantuannya dong"
+      },
+      {
         "intent": "inform_plant",
         "entities": [
           {
@@ -238,6 +398,42 @@
         "text": "sawi"
       },
       {
+        "intent": "inform_plant",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "cabai",
+            "entity": "plant"
+          }
+        ],
+        "text": "saya mau coba tanaman cabai"
+      },
+      {
+        "intent": "inform_planting_date",
+        "entities": [
+          {
+            "start": 19,
+            "end": 34,
+            "value": "17 agustus 2018",
+            "entity": "date"
+          }
+        ],
+        "text": "ditanamnya tanggal 17 agustus 2018 min"
+      },
+      {
+        "intent": "inform_planting_date",
+        "entities": [
+          {
+            "start": 22,
+            "end": 34,
+            "value": "26 juli 1998",
+            "entity": "date"
+          }
+        ],
+        "text": "mulai ditanam tanggal 26 juli 1998"
+      },
+      {
         "intent": "inform_pot",
         "entities": [
           {
@@ -286,176 +482,16 @@
         "text": "botol"
       },
       {
-        "intent": "ask_pupuk",
+        "intent": "inform_pot",
         "entities": [
           {
-            "start": 11,
-            "end": 15,
-            "value": "sawi",
-            "entity": "plant"
-          }
-        ],
-        "text": "buat tanam sawi pake pupuk apa ya?"
-      },
-      {
-        "intent": "ask_pupuk",
-        "entities": [
-          {
-            "start": 9,
-            "end": 14,
-            "value": "tomat",
-            "entity": "plant"
-          }
-        ],
-        "text": "biasanya tomat tuh pake pupuk apa sih?"
-      },
-      {
-        "intent": "ask_pupuk",
-        "entities": [
-          {
-            "start": 14,
-            "end": 19,
-            "value": "cabai",
-            "entity": "plant"
-          }
-        ],
-        "text": "untuk tanaman cabai bagusnya pupuk yang seperti apa ya?"
-      },
-      {
-        "intent": "ask_pupuk",
-        "entities": [
-          {
-            "start": 23,
-            "end": 31,
-            "value": "kangkung",
-            "entity": "plant"
-          }
-        ],
-        "text": "pupuk yang cocok untuk kangkung apa ya?"
-      },
-      {
-        "intent": "ask_rawat_siram",
-        "text": "kalau untuk penyiramannya sehari berapa kali ya?"
-      },
-      {
-        "intent": "ask_rawat_siram",
-        "entities": [
-          {
-            "start": 7,
-            "end": 11,
-            "value": "padi",
-            "entity": "plant"
-          }
-        ],
-        "text": "apakah padi perlu disiram setiap harinya?"
-      },
-      {
-        "intent": "ask_rawat_siram",
-        "text": "untuk penyiramannya sendiri, setiap tanaman itu berapa banyak ya?"
-      },
-      {
-        "intent": "ask_panen",
-        "entities": [
-          {
-            "start": 0,
-            "end": 8,
-            "value": "kangkung",
-            "entity": "plant"
-          }
-        ],
-        "text": "kangkung saya kapan ya panennya?"
-      },
-      {
-        "intent": "ask_panen",
-        "entities": [
-          {
-            "start": 21,
-            "end": 26,
-            "value": "tomat",
-            "entity": "plant"
-          }
-        ],
-        "text": "kira-kira buat panen tomat berapa lama ya?"
-      },
-      {
-        "intent": "ask_panen",
-        "entities": [
-          {
-            "start": 6,
-            "end": 11,
-            "value": "cabai",
-            "entity": "plant"
-          }
-        ],
-        "text": "panen cabai lama ga ya?"
-      },
-      {
-        "intent": "ask_panen",
-        "entities": [
-          {
-            "start": 6,
+            "start": 3,
             "end": 10,
-            "value": "sawi",
-            "entity": "plant"
+            "value": "polybag",
+            "entity": "pot"
           }
         ],
-        "text": "panen sawi butuh berapa hari ya?"
-      },
-      {
-        "intent": "inform_planting_date",
-        "entities": [
-          {
-            "start": 19,
-            "end": 34,
-            "value": "17 agustus 2018",
-            "entity": "date"
-          }
-        ],
-        "text": "ditanamnya tanggal 17 agustus 2018 min"
-      },
-      {
-        "intent": "inform_planting_date",
-        "entities": [
-          {
-            "start": 22,
-            "end": 34,
-            "value": "26 juli 1998",
-            "entity": "date"
-          }
-        ],
-        "text": "mulai ditanam tanggal 26 juli 1998"
-      },
-      {
-        "intent": "accept",
-        "text": "oke deh"
-      },
-      {
-        "intent": "accept",
-        "text": "ohh gitu"
-      },
-      {
-        "intent": "accept",
-        "text": "ok"
-      },
-      {
-        "intent": "accept",
-        "text": "ashiap"
-      },
-      {
-        "intent": "accept",
-        "text": "mantapp"
-      },
-      {
-        "intent": "enough",
-        "text": "udah paling gitu aja"
-      },
-      {
-        "intent": "enough",
-        "text": "segitu dulu"
-      },
-      {
-        "intent": "enough",
-        "text": "cukup"
+        "text": "di polybag aja"
       },
       {
         "intent": "thanks",
@@ -484,6 +520,10 @@
       {
         "intent": "thanks",
         "text": "okee makasih yaa bot"
+      },
+      {
+        "intent": "thanks",
+        "text": "cukup, terima kasih yaa bot"
       }
     ],
     "regex_features": [],
