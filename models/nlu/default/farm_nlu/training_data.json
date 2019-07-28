@@ -26,6 +26,10 @@
         "text": "wihh mantap"
       },
       {
+        "intent": "accept",
+        "text": "oh gitu, yaudah entar saya coba min"
+      },
+      {
         "intent": "ask_panen",
         "entities": [
           {
@@ -142,6 +146,18 @@
         "text": "untuk penyiramannya sendiri, setiap tanaman itu berapa banyak ya?"
       },
       {
+        "intent": "ask_rawat_siram",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "tomat",
+            "entity": "plant"
+          }
+        ],
+        "text": "kalo cara rawat tomat gimana?"
+      },
+      {
         "intent": "ask_tanam",
         "text": "mau nanem tumbuhan nih"
       },
@@ -250,6 +266,22 @@
         "text": "saya mau mencoba tanam tanaman hidroponik nih"
       },
       {
+        "intent": "ask_tanam",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "tomat",
+            "entity": "plant"
+          }
+        ],
+        "text": "cara nanem tomat gimana sih?"
+      },
+      {
+        "intent": "ask_tanam",
+        "text": "mau nanem dong min"
+      },
+      {
         "intent": "enough",
         "text": "udah paling gitu aja"
       },
@@ -312,6 +344,18 @@
       {
         "intent": "greet",
         "text": "hai bot, mau minta bantuannya dong"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "mau nanya nih"
+      },
+      {
+        "intent": "greet",
+        "text": "assalamualaikum"
       },
       {
         "intent": "inform_plant",
@@ -410,6 +454,18 @@
         "text": "saya mau coba tanaman cabai"
       },
       {
+        "intent": "inform_plant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cabe",
+            "entity": "plant"
+          }
+        ],
+        "text": "cabe dong"
+      },
+      {
         "intent": "inform_planting_date",
         "entities": [
           {
@@ -494,6 +550,42 @@
         "text": "di polybag aja"
       },
       {
+        "intent": "inform_pot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "polybag",
+            "entity": "pot"
+          }
+        ],
+        "text": "polybag dulu deh"
+      },
+      {
+        "intent": "inform_pot",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "gelas",
+            "entity": "pot"
+          }
+        ],
+        "text": "kalau gelas gaada ya min?"
+      },
+      {
+        "intent": "inform_pot",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "polybag",
+            "entity": "pot"
+          }
+        ],
+        "text": "oh yaudah polybag aja deh"
+      },
+      {
         "intent": "thanks",
         "text": "terima kasih"
       },
@@ -524,6 +616,14 @@
       {
         "intent": "thanks",
         "text": "cukup, terima kasih yaa bot"
+      },
+      {
+        "intent": "thanks",
+        "text": "oke makasih bot"
+      },
+      {
+        "intent": "thanks",
+        "text": "gaada min, yaudah makasih"
       }
     ],
     "regex_features": [],
