@@ -81,3 +81,62 @@
 * thanks
     - utter_thanks
 
+## Generated Story -7413301309735831225
+* ask_tanam{"plant": "kangkung"}
+    - slot{"plant": "kangkung"}
+    - utter_ask_pot
+* inform_pot{"pot": "botol"}
+    - slot{"pot": "botol"}
+    - action_tanam_kangkung_botol
+    - slot{"plant": "kangkung"}
+* accept
+    - utter_tanya_lagi
+* ask_pupuk{"plant": "kangkung"}
+    - slot{"plant": "kangkung"}
+    - utter_inform_pupuk_kangkung
+* ask_rawat_siram
+    - utter_inform_siram_kangkung
+* thanks
+    - utter_thanks
+
+## Generated Story -6881391553361465932
+* greet
+    - utter_greet
+* ask_tanam{"plant": "tomat", "pot": "polybag"}
+    - slot{"plant": "tomat"}
+    - slot{"pot": "polybag"}
+    - action_tanam_tomat_polybag
+    - slot{"plant": "tomat"}
+* ask_rawat_siram
+    - utter_inform_siram_tomat
+* ask_pupuk{"plant": "sawi"}
+    - slot{"plant": "sawi"}
+    - utter_inform_pupuk_sawi
+* thanks
+    - utter_thanks
+
+## Generated Story -8866655433732480588
+* ask_pupuk{"plant": "cabai"}
+    - slot{"plant": "cabai"}
+    - utter_inform_pupuk_cabai
+* thanks
+    - utter_thanks
+
+## Generated Story -1134435891935060116
+* ask_rawat_siram{"plant": "tomat"}
+    - slot{"plant": "tomat"}
+    - utter_inform_siram_tomat
+* thanks
+    - utter_thanks
+
+## Generated Story -7555723523148744974
+* greet
+    - utter_greet
+* ask_tanam{"plant": "cabai", "pot": "botol"}
+    - slot{"plant": "cabai"}
+    - slot{"pot": "botol"}
+    - action_tanam_cabai_botol
+    - slot{"plant": "cabai"}
+* thanks
+    - utter_thanks
+

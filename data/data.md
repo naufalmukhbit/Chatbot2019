@@ -14,6 +14,7 @@
 - ok mantap
 - muantap min
 - terbaik min
+- ohh gitu
 
 ## intent:ask_panen
 - [sawi](plant) saya kapan ya panennya?
@@ -27,7 +28,7 @@
 - min mau nanya dong, buat [sawi](plant) tuh waktu panennya berapa lama ya?
 - min kalo tanaman [tomat](plant) waktu panennya lama ga sih?
 - min saya mau nanem [cabai](plant), buat waktu panennya tuh kira-kira lama ga ya?
-- min kira-kira kalo tanaman [kangkung](plant) itu lama ga ya panennya? 
+- min kira-kira kalo tanaman [kangkung](plant) itu lama ga ya panennya?
 
 ## intent:ask_pupuk
 - buat tanam [sawi](plant) pake pupuk apa ya?
@@ -41,7 +42,10 @@
 - min mau nanya dong, buat [sawi](plant) tuh pupuk yang pantes apa ya?
 - min kalo tanaman [tomat](plant) pupuk yang cocok tuh apa ya?
 - min saya mau nanem [cabai](plant), buat pupuknya apa ya kira-kira?
-- min kira-kira kalo tanaman [kangkung](plant) itu pupuk apa yang cocok ya? 
+- min kira-kira kalo tanaman [kangkung](plant) itu pupuk apa yang cocok ya?
+- kalau pupuk yang cocok untuk [kangkung](plant) apa ya?
+- kalau pupuk yang cocok untuk [sawi](plant) apa ya?
+- saya mau tanya kalau pupuk yang cocok untuk [cabai](plant) apa ya?
 
 ## intent:ask_rawat_siram
 - kalau untuk penyiramannya sehari berapa kali ya?
@@ -55,7 +59,10 @@
 - min mau nanya dong, buat [sawi](plant) tuh buat waktu penyiramannya berapa kali ya?
 - min kalo tanaman [tomat](plant) tuh sehari butuh disiram berapa kali ya?
 - min saya mau nanem [cabai](plant), buat sehari butuh berapa kali ya penyiramannya?
-- min kira-kira kalo tanaman [kangkung](plant) tuh nyiramnya berapa kali ya? 
+- min kira-kira kalo tanaman [kangkung](plant) tuh nyiramnya berapa kali ya?
+- perawatan siramnya bagaimana?
+- untuk perawatannya gimana ya?
+- kalau perawatan [tomat](plant) itu baiknya gimana ya?
 
 ## intent:ask_tanam
 - mau nanem tumbuhan nih
@@ -78,7 +85,10 @@
 - min mau nanya dong, buat [sawi](plant) tuh cara nanemnya gimana ya?
 - min kalo tanaman [tomat](plant) itu cara gampang nanemnya gimana sih?
 - min saya mau nanem [cabai](plant), buat cara tanamnya gimana ya?
-- min kira-kira kalo tanaman [kangkung](plant) tuh cara nanemnya mudah ga sih? 
+- min kira-kira kalo tanaman [kangkung](plant) tuh cara nanemnya mudah ga sih?
+- gimana cara nanem [kangkung](plant)?
+- gimana cara nanem [tomat](plant) di [polybag](pot)?
+- gimana yaa cara nanem [cabai](plant) di [botol](pot)?
 
 ## intent:enough
 - udah paling gitu aja
@@ -110,6 +120,8 @@
 - assalamualaikum
 - bot bot mau nanya dong
 - bot mau nanya nih
+- bot mau tanya dong
+- bot minta bantuannya dong
 
 ## intent:inform_plant
 - tumbuhan [kangkung](plant)
@@ -137,6 +149,7 @@
 - kalau [gelas](pot) gaada ya min?
 - oh yaudah [polybag](pot) aja deh
 - saya nanem di [polybag](pot)
+- [botol](pot)
 
 ## intent:thanks
 - terima kasih
@@ -149,3 +162,8 @@
 - cukup, terima kasih yaa bot
 - oke makasih bot
 - gaada min, yaudah makasih
+- ok deh, makasih
+- ok makasih
+- ok makasih
+- oke makasih bot
+- oke makasih bot

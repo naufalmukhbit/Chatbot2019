@@ -1,53 +1,53 @@
 %YAML 1.1
 ---
 actions:
-- action_tanam_cabai_botol
-- utter_inform_panen
-- utter_ask_date
-- action_tanam_kangkung_polybag
-- action_tanam_cabai_polybag
-- utter_inform_pupuk_kangkung
-- utter_thanks
-- utter_inform_siram_sawi
-- utter_inform_pupuk_tomat
-- utter_tanya_lagi
-- utter_ask_pot
-- action_tanam_tomat_polybag
-- action_tanam_kangkung_botol
-- utter_inform_siram_cabai
-- action_tanam_sawi_polybag
-- utter_inform_siram_kangkung
 - utter_unclear
+- utter_inform_pupuk_kangkung
 - action_tanam_tomat_botol
 - utter_greet
+- action_tanam_tomat_polybag
+- utter_inform_pupuk_tomat
+- utter_inform_pupuk_cabai
+- action_tanam_kangkung_polybag
+- utter_tanya_lagi
+- utter_inform_pupuk_sawi
+- action_tanam_kangkung_botol
+- utter_inform_siram_sawi
+- utter_inform_siram_kangkung
+- utter_ask_date
+- action_tanam_cabai_botol
+- utter_ask_pot
+- utter_inform_siram_cabai
+- utter_inform_panen
+- utter_inform_siram_tomat
+- action_tanam_sawi_polybag
+- utter_thanks
+- action_tanam_cabai_polybag
 - utter_ask_plant
 - action_tanam_sawi_botol
-- utter_inform_siram_tomat
-- utter_inform_pupuk_cabai
-- utter_inform_pupuk_sawi
 config:
   store_entities_as_slots: true
 entities:
-- date
-- plant
 - pot
+- plant
+- date
 forms: []
 intents:
-- ask_tanam:
-    use_entities: true
-- greet:
-    use_entities: true
-- inform_pot:
-    use_entities: true
-- accept:
-    use_entities: true
 - thanks:
-    use_entities: true
-- inform_plant:
     use_entities: true
 - ask_rawat_siram:
     use_entities: true
 - ask_pupuk:
+    use_entities: true
+- ask_tanam:
+    use_entities: true
+- greet:
+    use_entities: true
+- accept:
+    use_entities: true
+- inform_pot:
+    use_entities: true
+- inform_plant:
     use_entities: true
 - ask_panen:
     use_entities: true
