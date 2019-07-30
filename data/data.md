@@ -57,7 +57,7 @@
 - min ini nyiramnya kapan lagi ya?
 - kalo [tomat](plant) berapa kali sehari nyiramnya?
 - min mau nanya dong, buat [sawi](plant) tuh buat waktu penyiramannya berapa kali ya?
-- min kalo tanaman [tomat](plant) tuh sehari butuh disiram berapa kali ya?
+- min kalo tanaman [cabe](plant) tuh sehari butuh disiram berapa kali ya?
 - min saya mau nanem [cabai](plant), buat sehari butuh berapa kali ya penyiramannya?
 - min kira-kira kalo tanaman [kangkung](plant) tuh nyiramnya berapa kali ya?
 - perawatan siramnya bagaimana?
@@ -99,6 +99,7 @@
 - palingan segitu aja
 - cukup dulu min
 - sampe sini dulu aja min, tar kalo bingung nanya lagi
+- ga jadi 
 - ntar kalo bingung nanya lagi deh min
 
 ## intent:greet
@@ -133,6 +134,7 @@
 - [sawi](plant)
 - saya mau coba tanaman [cabai](plant)
 - [sawi](plant) dong
+- [cabe](plant)
 
 ## intent:inform_planting_date
 - ditanamnya tanggal [17 agustus 2018](date) min

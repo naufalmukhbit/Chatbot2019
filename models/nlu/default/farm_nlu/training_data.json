@@ -62,6 +62,10 @@
         "text": "terbaik min"
       },
       {
+        "intent": "accept",
+        "text": "ohh gitu"
+      },
+      {
         "intent": "ask_panen",
         "entities": [
           {
@@ -350,6 +354,42 @@
         "text": "min kira-kira kalo tanaman kangkung itu pupuk apa yang cocok ya?"
       },
       {
+        "intent": "ask_pupuk",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "kangkung",
+            "entity": "plant"
+          }
+        ],
+        "text": "kalau pupuk yang cocok untuk kangkung apa ya?"
+      },
+      {
+        "intent": "ask_pupuk",
+        "entities": [
+          {
+            "start": 29,
+            "end": 33,
+            "value": "sawi",
+            "entity": "plant"
+          }
+        ],
+        "text": "kalau pupuk yang cocok untuk sawi apa ya?"
+      },
+      {
+        "intent": "ask_pupuk",
+        "entities": [
+          {
+            "start": 44,
+            "end": 49,
+            "value": "cabai",
+            "entity": "plant"
+          }
+        ],
+        "text": "saya mau tanya kalau pupuk yang cocok untuk cabai apa ya?"
+      },
+      {
         "intent": "ask_rawat_siram",
         "text": "kalau untuk penyiramannya sehari berapa kali ya?"
       },
@@ -438,12 +478,12 @@
         "entities": [
           {
             "start": 17,
-            "end": 22,
-            "value": "tomat",
+            "end": 21,
+            "value": "cabe",
             "entity": "plant"
           }
         ],
-        "text": "min kalo tanaman tomat tuh sehari butuh disiram berapa kali ya?"
+        "text": "min kalo tanaman cabe tuh sehari butuh disiram berapa kali ya?"
       },
       {
         "intent": "ask_rawat_siram",
@@ -468,6 +508,26 @@
           }
         ],
         "text": "min kira-kira kalo tanaman kangkung tuh nyiramnya berapa kali ya?"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "text": "perawatan siramnya bagaimana?"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "text": "untuk perawatannya gimana ya?"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "tomat",
+            "entity": "plant"
+          }
+        ],
+        "text": "kalau perawatan tomat itu baiknya gimana ya?"
       },
       {
         "intent": "ask_tanam",
@@ -690,6 +750,54 @@
         "text": "min kira-kira kalo tanaman kangkung tuh cara nanemnya mudah ga sih?"
       },
       {
+        "intent": "ask_tanam",
+        "entities": [
+          {
+            "start": 18,
+            "end": 26,
+            "value": "kangkung",
+            "entity": "plant"
+          }
+        ],
+        "text": "gimana cara nanem kangkung?"
+      },
+      {
+        "intent": "ask_tanam",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "tomat",
+            "entity": "plant"
+          },
+          {
+            "start": 27,
+            "end": 34,
+            "value": "polybag",
+            "entity": "pot"
+          }
+        ],
+        "text": "gimana cara nanem tomat di polybag?"
+      },
+      {
+        "intent": "ask_tanam",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "cabai",
+            "entity": "plant"
+          },
+          {
+            "start": 31,
+            "end": 36,
+            "value": "botol",
+            "entity": "pot"
+          }
+        ],
+        "text": "gimana yaa cara nanem cabai di botol?"
+      },
+      {
         "intent": "enough",
         "text": "udah paling gitu aja"
       },
@@ -720,6 +828,10 @@
       {
         "intent": "enough",
         "text": "sampe sini dulu aja min, tar kalo bingung nanya lagi"
+      },
+      {
+        "intent": "enough",
+        "text": "ga jadi"
       },
       {
         "intent": "enough",
@@ -796,6 +908,14 @@
       {
         "intent": "greet",
         "text": "bot mau nanya nih"
+      },
+      {
+        "intent": "greet",
+        "text": "bot mau tanya dong"
+      },
+      {
+        "intent": "greet",
+        "text": "bot minta bantuannya dong"
       },
       {
         "intent": "inform_plant",
@@ -904,6 +1024,18 @@
           }
         ],
         "text": "sawi dong"
+      },
+      {
+        "intent": "inform_plant",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "cabe",
+            "entity": "plant"
+          }
+        ],
+        "text": "cabe"
       },
       {
         "intent": "inform_planting_date",
@@ -1050,6 +1182,18 @@
         "text": "saya nanem di polybag"
       },
       {
+        "intent": "inform_pot",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "botol",
+            "entity": "pot"
+          }
+        ],
+        "text": "botol"
+      },
+      {
         "intent": "thanks",
         "text": "terima kasih"
       },
@@ -1088,6 +1232,26 @@
       {
         "intent": "thanks",
         "text": "gaada min, yaudah makasih"
+      },
+      {
+        "intent": "thanks",
+        "text": "ok deh, makasih"
+      },
+      {
+        "intent": "thanks",
+        "text": "ok makasih"
+      },
+      {
+        "intent": "thanks",
+        "text": "ok makasih"
+      },
+      {
+        "intent": "thanks",
+        "text": "oke makasih bot"
+      },
+      {
+        "intent": "thanks",
+        "text": "oke makasih bot"
       }
     ],
     "regex_features": [],

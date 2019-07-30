@@ -1,47 +1,34 @@
 %YAML 1.1
 ---
 actions:
-- utter_unclear
-- utter_inform_pupuk_kangkung
-- action_tanam_tomat_botol
-- utter_greet
-- action_tanam_tomat_polybag
-- utter_inform_pupuk_tomat
-- utter_inform_pupuk_cabai
-- action_tanam_kangkung_polybag
+- action_siram
+- action_tanam
+- action_pupuk
 - utter_tanya_lagi
-- utter_inform_pupuk_sawi
-- action_tanam_kangkung_botol
-- utter_inform_siram_sawi
-- utter_inform_siram_kangkung
-- utter_ask_date
-- action_tanam_cabai_botol
-- utter_ask_pot
-- utter_inform_siram_cabai
+- utter_unclear
 - utter_inform_panen
-- utter_inform_siram_tomat
-- action_tanam_sawi_polybag
-- utter_thanks
-- action_tanam_cabai_polybag
+- utter_ask_pot
 - utter_ask_plant
-- action_tanam_sawi_botol
+- utter_thanks
+- utter_ask_date
+- utter_greet
 config:
   store_entities_as_slots: true
 entities:
-- pot
 - plant
+- pot
 - date
 forms: []
 intents:
 - thanks:
     use_entities: true
-- ask_rawat_siram:
-    use_entities: true
-- ask_pupuk:
-    use_entities: true
 - ask_tanam:
     use_entities: true
 - greet:
+    use_entities: true
+- ask_rawat_siram:
+    use_entities: true
+- ask_pupuk:
     use_entities: true
 - accept:
     use_entities: true
@@ -76,27 +63,6 @@ templates:
   - text: Halo! Ada yang bisa saya bantu, kak?
   utter_inform_panen:
   - text: anda kemungkinan panen pada tanggal 20-Januari-2020
-  utter_inform_pupuk_cabai:
-  - text: pupuk yang cocok untuk tanaman cabai adalah campuran tanah humus, arang
-      sekam, dan pupuk kandang kering
-  utter_inform_pupuk_kangkung:
-  - text: pupuk hidroponik seperti AB Mix hidroponik sayur kak
-  utter_inform_pupuk_sawi:
-  - text: pupuk yang cocok untuk tanaman sawi adalah pupuk organik atau pupuk kandang
-  utter_inform_pupuk_tomat:
-  - text: gunakan pupuk kandang yang sudah didekomposisi dengan EM4 lalu dicmpur dengan  PHONSKA
-      dan SP36 dengan perbandingan 2:1
-  utter_inform_siram_cabai:
-  - text: kakak bisa menyiram 1x tiap hari. Bisa juga ditambahkan nutrisi 5 ml nutrisi
-      A + 5 ml nutrisi B dicampur dengan 1 liter air tiap 10 hari sekali
-  utter_inform_siram_kangkung:
-  - text: siram 1x tiap hari dengan campuran 1 liter air dan 7-9 ml nutrisi AB Mix
-  utter_inform_siram_sawi:
-  - text: siram 2x tiap hari pada saat pagi dan sore. tetapi jika dilihat masih dalam
-      keadaan lembab, maka tidak perlu disiram lagi, kak
-  utter_inform_siram_tomat:
-  - text: kakak bisa menggunakan gembor manual atau selang fertilisasi. disarankan
-      menggunakan serang fertilisasi karena prosesnya akan lebih mudah.
   utter_tanya_lagi:
   - text: ada lagi yang bisa dibantu kak?
   utter_thanks:
