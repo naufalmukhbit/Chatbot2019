@@ -55,7 +55,7 @@
 - min mau nanya dong, buat [sawi](plant) tuh buat waktu penyiramannya berapa kali ya?
 - min kalo tanaman [tomat](plant) tuh sehari butuh disiram berapa kali ya?
 - min saya mau nanem [cabai](plant), buat sehari butuh berapa kali ya penyiramannya?
-- min kira-kira kalo tanaman [kangkung](plant) tuh nyiramnya berapa kali ya? 
+- min kira-kira kalo tanaman [kangkung](plant) tuh nyiramnya berapa kali ya?
 
 ## intent:ask_tanam
 - mau nanem tumbuhan nih
@@ -148,4 +148,4 @@
 - okee makasih yaa bot
 - cukup, terima kasih yaa bot
 - oke makasih bot
-- gaada min, yaudah makasih
+- gaada min, yaudah makasih 
