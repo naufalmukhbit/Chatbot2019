@@ -15,6 +15,10 @@
 - muantap min
 - terbaik min
 - ohh gitu
+- oh
+- gaada
+- sip
+- yoo
 
 ## intent:ask_panen
 - [sawi](plant) saya kapan ya panennya?
@@ -57,12 +61,17 @@
 - min ini nyiramnya kapan lagi ya?
 - kalo [tomat](plant) berapa kali sehari nyiramnya?
 - min mau nanya dong, buat [sawi](plant) tuh buat waktu penyiramannya berapa kali ya?
-- min kalo tanaman [cabe](plant) tuh sehari butuh disiram berapa kali ya?
+- min kalo tanaman [cabai](plant) tuh sehari butuh disiram berapa kali ya?
 - min saya mau nanem [cabai](plant), buat sehari butuh berapa kali ya penyiramannya?
 - min kira-kira kalo tanaman [kangkung](plant) tuh nyiramnya berapa kali ya?
 - perawatan siramnya bagaimana?
 - untuk perawatannya gimana ya?
 - kalau perawatan [tomat](plant) itu baiknya gimana ya?
+- untuk nyiram tanaman saya yang benar itu gimana?
+- cara siram [kangkung](plant) gimana ya?
+- saya bingung cara nyiram [sawi](plant)
+- untuk cara siram [tomat](plant) gimana ya?
+- min saya kan mau siram [cabai](plant), cuman gangerti caranya gimana?
 
 ## intent:ask_tanam
 - mau nanem tumbuhan nih
@@ -101,10 +110,12 @@
 - sampe sini dulu aja min, tar kalo bingung nanya lagi
 - ga jadi 
 - ntar kalo bingung nanya lagi deh min
+- okai
 
 ## intent:greet
 - halo
 - hai
+- hello
 - hi
 - bot
 - halo bot
@@ -163,9 +174,15 @@
 - okee makasih yaa bot
 - cukup, terima kasih yaa bot
 - oke makasih bot
+- gaada min, yaudah makasih 
 - gaada min, yaudah makasih
 - ok deh, makasih
 - ok makasih
 - ok makasih
 - oke makasih bot
-- oke makasih bot
+- oke makasih ya bot
+
+## intent:ngaco
+- mau siram
+- mau nanem
+- mau panen

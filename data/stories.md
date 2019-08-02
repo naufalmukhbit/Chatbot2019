@@ -52,7 +52,7 @@
     
 ## stories pupuk tanpa plant
 * ask_pupuk
-    -utter_ask_plant
+    - utter_ask_plant
 * inform_plant{"plant": "cabe"}
     - slot{"plant": "sawi"}
     - action_pupuk
@@ -61,3 +61,8 @@
 * ask_pupuk{"plant": "cabe"}
     - slot{"plant": "cabe"}
     - action_pupuk
+    
+## stories ngaco
+* ngaco
+    - utter_ngaco
+    

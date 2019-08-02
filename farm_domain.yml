@@ -29,6 +29,7 @@ intents:
 - ask_panen
 - inform_planting_date
 - enough
+- bot_gamau_jawab
 slots:
   plant:
     type: text
@@ -52,3 +53,5 @@ templates:
   - text: Baik kak, senang bisa membantu!
   utter_unclear:
   - text: untuk layanan tersebut masih belum tersedia kak. Bot minta maaf yaa....
+  utter_ngaco:
+  - text: yaudah sok sana
