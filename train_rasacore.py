@@ -13,14 +13,14 @@ if __name__ == '__main__':
     # there is a threshold for the NLU predictions as well as the action predictions
     fallback = FallbackPolicy(fallback_action_name="utter_unclear", core_threshold=0.3, nlu_threshold=0.3)
 
+    # loading our neatly defined training dialogues
     interpreter = RasaNLUInterpreter("./models/nlu/default/farm_nlu")
     agent = Agent("farm_domain.yml", policies=[MemoizationPolicy(), KerasPolicy(), fallback])
-
-    # loading our neatly defined training dialogues
     training_data = agent.load_data('./data/stories.md')
     agent.train(training_data)
     agent.persist(model_path)
     agent = Agent.load("./models/dialogue", interpreter=interpreter)
+
     # agent.handle.text("hello")
 
     # print("Your bot is ready to talk! Type your message here or send 'stop'")
