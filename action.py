@@ -14,8 +14,8 @@ class ActionTanam(Action):
 
         if plant == "kangkung":
             if pot == "botol":
-                response = """cara nanem {} bisa dilihat di link https://bibitonline.com/artikel/cara-budidaya-kangkung-hidroponik-menggunakan-botol-bekas""".format(
-                    plant)
+                response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: https://bibitonline.com/artikel/cara-budidaya-kangkung-hidroponik-menggunakan-botol-bekas""".format(
+                    plant, pot)
             else:
                 response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: https://bibitbunga.com/cara-menanam-kangkung-cabut-dalam-pot-atau-polybag/""".format(
                     plant, pot)
