@@ -5,6 +5,7 @@
     "intent_ask_pupuk",
     "intent_ask_rawat_siram",
     "intent_ask_tanam",
+    "intent_bot_gamau_jawab",
     "intent_enough",
     "intent_greet",
     "intent_inform_plant",
