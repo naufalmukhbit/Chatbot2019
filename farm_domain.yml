@@ -38,21 +38,28 @@ slots:
     type: text
 templates:
   utter_ask_date:
-  - text: mulai taman tanggal berapa yaa kak?
+  - text: Mulai ditanamnya tanggal berapa ya, kak?
   utter_ask_plant:
   - text: Tumbuhannya apa ya, kak?
   - text: Tumbuhan apa yang ditanyakan, kak?
+  - text: Untuk tumbuhan apa nih, kak?
   utter_ask_pot:
-  - text: media tanamnya mau di botol atau polybag kak?
+  - text: Media tanamnya mau di botol atau polybag, kak?
+  - text: Ingin menggunakan botol atau polybag, kak?
+  - text: Ada dua media tanam nih kak, yaitu botol dan polybag. Kakak mau pakai yang mana?
   utter_greet:
   - text: Halo! Ada yang bisa saya bantu, kak?
+  - text: Halo kak! Butuh bantuan apa hari ini?
   utter_inform_panen:
-  - text: anda kemungkinan panen pada tanggal 20-Januari-2020
+  - text: Anda kemungkinan panen pada tanggal 20-Januari-2020
   utter_tanya_lagi:
-  - text: ada lagi yang bisa dibantu kak?
+  - text: Ada lagi yang bisa dibantu kak?
+  - text: Bot bisa bantu apa lagi nih, kak?
+  - text: Baik kak, perlu bantuan lagi?
   utter_thanks:
   - text: Baik kak, senang bisa membantu!
+  - text: Sama-sama, kak! Semoga harinya menyenangkan :)
   utter_unclear:
-  - text: untuk layanan tersebut masih belum tersedia kak. Bot minta maaf yaa....
-  utter_ngaco:
-  - text: yaudah sok sana
+  - text: Untuk layanan tersebut masih belum tersedia kak. Bot minta maaf ya...
+  - text: Maksudnya bagaimana ya, kak? Bot nggak ngerti nih...
+  - text: Bisa diperjelas kak? Bot nggak paham :(
