@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bae2b75-e991-4a8b-8cb2-89af69a5d538" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/train_rasacore.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_rasacore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stories.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/stories.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/farm_domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/farm_domain.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/domain.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/domain.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/domain.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/policy_0_MemoizationPolicy/memorized_turns.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/policy_0_MemoizationPolicy/memorized_turns.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/policy_1_KerasPolicy/featurizer.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/policy_1_KerasPolicy/featurizer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/policy_1_KerasPolicy/keras_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/policy_1_KerasPolicy/keras_model.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_1_CRFEntityExtractor.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_1_CRFEntityExtractor.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_3_CountVectorsFeaturizer.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_3_CountVectorsFeaturizer.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_4_EmbeddingIntentClassifier.ckpt.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_4_EmbeddingIntentClassifier.ckpt.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_4_EmbeddingIntentClassifier.ckpt.index" beforeDir="false" afterPath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_4_EmbeddingIntentClassifier.ckpt.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_4_EmbeddingIntentClassifier.ckpt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_4_EmbeddingIntentClassifier.ckpt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_4_EmbeddingIntentClassifier_encoded_all_intents.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_4_EmbeddingIntentClassifier_encoded_all_intents.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_4_EmbeddingIntentClassifier_inv_intent_dict.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/nlu/default/farm_nlu/component_4_EmbeddingIntentClassifier_inv_intent_dict.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/farm_nlu/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/nlu/default/farm_nlu/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/farm_nlu/training_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/nlu/default/farm_nlu/training_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rasa_core.log" beforeDir="false" afterPath="$PROJECT_DIR$/rasa_core.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_rasacore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -40,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/data/data.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1062">
-                <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+              <first_editor>
+                <caret lean-forward="true" selection-end-line="20" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -52,8 +67,8 @@
         <entry file="file://$PROJECT_DIR$/data/stories.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="408">
-                <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+              <first_editor relative-caret-position="270">
+                <caret line="15" selection-start-line="15" selection-end-line="15" />
               </first_editor>
               <second_editor />
             </state>
@@ -63,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/farm_domain.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="252">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -72,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/action.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="229">
+              <caret line="93" column="164" lean-forward="true" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="164" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -100,10 +115,10 @@
         <option value="$PROJECT_DIR$/models/dialogue/domain.yml" />
         <option value="$PROJECT_DIR$/nlu_model.py" />
         <option value="$PROJECT_DIR$/data/data.md" />
-        <option value="$PROJECT_DIR$/farm_domain.yml" />
         <option value="$PROJECT_DIR$/action.py" />
-        <option value="$PROJECT_DIR$/data/stories.md" />
         <option value="$PROJECT_DIR$/train_rasacore.py" />
+        <option value="$PROJECT_DIR$/data/stories.md" />
+        <option value="$PROJECT_DIR$/farm_domain.yml" />
       </list>
     </option>
   </component>
@@ -117,7 +132,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -139,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.action">
+  <component name="RunManager" selected="Python.train_rasacore">
     <configuration name="action" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Chatbot2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,9 +226,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.action" />
         <item itemvalue="Python.train_rasacore" />
         <item itemvalue="Python.nlu_model" />
+        <item itemvalue="Python.action" />
       </list>
     </recent_temporary>
   </component>
@@ -241,16 +259,19 @@
       <workItem from="1564320023623" duration="10609000" />
       <workItem from="1564517456901" duration="8548000" />
       <workItem from="1564629647714" duration="3842000" />
+      <workItem from="1564725903652" duration="1956000" />
+      <workItem from="1564837370941" duration="3298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76096000" />
+    <option name="totallyTimeSpent" value="81350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26172465" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75268817" visible="true" weight="0.2655068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -264,7 +285,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.13056836" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.24731183" visible="true" weight="0.2611367" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -300,9 +321,9 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Chatbot2019$nlu_model.coverage" NAME="nlu_model Coverage Results" MODIFIED="1564525407512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Chatbot2019$action.coverage" NAME="action Coverage Results" MODIFIED="1564525467054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Chatbot2019$train_rasacore.coverage" NAME="train_rasacore Coverage Results" MODIFIED="1564525419564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Chatbot2019$nlu_model.coverage" NAME="nlu_model Coverage Results" MODIFIED="1564838881208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Chatbot2019$train_rasacore.coverage" NAME="train_rasacore Coverage Results" MODIFIED="1564839425750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config_embedding.json">
@@ -332,31 +353,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_rasacore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/stories.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="408">
-            <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+          <first_editor relative-caret-position="270">
+            <caret line="15" selection-start-line="15" selection-end-line="15" />
           </first_editor>
           <second_editor />
         </state>
@@ -364,16 +365,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/farm_domain.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="252">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_rasacore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="93" column="164" lean-forward="true" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="164" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/data.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1062">
-            <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+          <first_editor>
+            <caret lean-forward="true" selection-end-line="20" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>

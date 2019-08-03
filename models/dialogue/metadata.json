@@ -6,25 +6,25 @@
         "pot"
       ]
     },
-    "action_tanam": {
-      "slots": [
-        "plant",
-        "pot"
-      ]
-    },
-    "utter_thanks": {
+    "utter_ngaco": {
       "slots": []
     },
-    "utter_greet": {
+    "action_tanam": {
+      "slots": []
+    },
+    "action_pupuk": {
       "slots": []
     },
     "action_siram": {
       "slots": []
     },
+    "utter_thanks": {
+      "slots": []
+    },
     "utter_tanya_lagi": {
       "slots": []
     },
-    "action_pupuk": {
+    "utter_greet": {
       "slots": []
     }
   },
@@ -40,7 +40,7 @@
     "rasa_core.policies.keras_policy.KerasPolicy",
     "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20190731-052358",
+  "trained_at": "20190803-203742",
   "rasa_core": "0.14.5",
   "tensorflow": "1.13.1",
   "sklearn": "0.20.3"

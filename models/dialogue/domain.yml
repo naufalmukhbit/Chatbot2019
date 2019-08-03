@@ -12,6 +12,7 @@ actions:
 - utter_thanks
 - utter_ask_date
 - utter_greet
+- utter_ngaco
 config:
   store_entities_as_slots: true
 entities:
@@ -42,6 +43,8 @@ intents:
     use_entities: true
 - enough:
     use_entities: true
+- bot_gamau_jawab:
+    use_entities: true
 slots:
   plant:
     auto_fill: true
@@ -63,6 +66,8 @@ templates:
   - text: Halo! Ada yang bisa saya bantu, kak?
   utter_inform_panen:
   - text: anda kemungkinan panen pada tanggal 20-Januari-2020
+  utter_ngaco:
+  - text: yaudah sok sana
   utter_tanya_lagi:
   - text: ada lagi yang bisa dibantu kak?
   utter_thanks:
