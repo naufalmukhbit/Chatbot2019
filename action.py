@@ -14,17 +14,17 @@ class ActionTanam(Action):
 
         if plant == "kangkung":
             if pot == "botol":
-                response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: https://bibitonline.com/artikel/cara-budidaya-kangkung-hidroponik-menggunakan-botol-bekas""".format(
+                response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: http://localhost/plantstore/index.php/Article/index/7""".format(
                     plant, pot)
             else:
-                response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: https://bibitbunga.com/cara-menanam-kangkung-cabut-dalam-pot-atau-polybag/""".format(
+                response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: http://localhost/plantstore/index.php/Article/index/8""".format(
                     plant, pot)
         elif plant == "sawi":
             if pot == "botol":
-                response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: https://bibitonline.com/artikel/cara-menanam-sawi-hidroponik-dengan-botol-bekas""".format(
+                response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: http://localhost/plantstore/index.php/Article/index/5""".format(
                     plant, pot)
             else:
-                response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: https://www.kampustani.com/cara-menanam-sawi-di-polybag/""".format(
+                response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: http://localhost/plantstore/index.php/Article/index/6""".format(
                     plant, pot)
         elif plant == "tomat":
             if pot == "botol":
@@ -35,10 +35,10 @@ class ActionTanam(Action):
                     plant, pot)
         elif plant == "cabai"  or plant == "cabe":
             if pot == "botol":
-                response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: https://bibitonline.com/artikel/cara-menanam-cabe-hidroponik-dalam-botol-6-tahapan""".format(
+                response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: http://localhost/plantstore/index.php/Article/index/3""".format(
                     plant, pot)
             else:
-                response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: https://bibitbunga.com/cara-menanam-cabe-hidroponik-menggunakan-polybag/""".format(
+                response = """Cara menanam {} dengan media {} bisa dilihat di link ini ya kak: http://localhost/plantstore/index.php/Article/index/4""".format(
                     plant, pot)
         else:
             response = """ Mohon maaf kak, untuk tanaman {} masih belum tersedia di layanan kami.""".format(plant)

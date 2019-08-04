@@ -181,8 +181,3 @@
 - ok makasih
 - oke makasih bot
 - oke makasih ya bot
-
-## intent:ngaco
-- mau siram
-- mau nanem
-- mau panen
