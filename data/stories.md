@@ -61,5 +61,7 @@
 * ask_pupuk{"plant": "cabe"}
     - slot{"plant": "cabe"}
     - action_pupuk
-
     
+## stories ngaco
+* ngaco
+    - utter_ngaco

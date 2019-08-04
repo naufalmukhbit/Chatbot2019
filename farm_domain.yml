@@ -12,6 +12,7 @@ actions:
 - utter_thanks
 - utter_ask_date
 - utter_greet
+- utter_ngaco
 
 entities:
 - plant

@@ -35,6 +35,7 @@
     "prev_utter_ask_plant",
     "prev_utter_thanks",
     "prev_utter_ask_date",
-    "prev_utter_greet"
+    "prev_utter_greet",
+    "prev_utter_ngaco"
   ]
 }

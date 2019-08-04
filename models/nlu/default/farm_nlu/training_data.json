@@ -66,6 +66,22 @@
         "text": "ohh gitu"
       },
       {
+        "intent": "accept",
+        "text": "oh"
+      },
+      {
+        "intent": "accept",
+        "text": "gaada"
+      },
+      {
+        "intent": "accept",
+        "text": "sip"
+      },
+      {
+        "intent": "accept",
+        "text": "yoo"
+      },
+      {
         "intent": "ask_panen",
         "entities": [
           {
@@ -478,12 +494,12 @@
         "entities": [
           {
             "start": 17,
-            "end": 21,
-            "value": "cabe",
+            "end": 22,
+            "value": "cabai",
             "entity": "plant"
           }
         ],
-        "text": "min kalo tanaman cabe tuh sehari butuh disiram berapa kali ya?"
+        "text": "min kalo tanaman cabai tuh sehari butuh disiram berapa kali ya?"
       },
       {
         "intent": "ask_rawat_siram",
@@ -528,6 +544,58 @@
           }
         ],
         "text": "kalau perawatan tomat itu baiknya gimana ya?"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "text": "untuk nyiram tanaman saya yang benar itu gimana?"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "kangkung",
+            "entity": "plant"
+          }
+        ],
+        "text": "cara siram kangkung gimana ya?"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "entities": [
+          {
+            "start": 25,
+            "end": 29,
+            "value": "sawi",
+            "entity": "plant"
+          }
+        ],
+        "text": "saya bingung cara nyiram sawi"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "value": "tomat",
+            "entity": "plant"
+          }
+        ],
+        "text": "untuk cara siram tomat gimana ya?"
+      },
+      {
+        "intent": "ask_rawat_siram",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "cabai",
+            "entity": "plant"
+          }
+        ],
+        "text": "min saya kan mau siram cabai, cuman gangerti caranya gimana?"
       },
       {
         "intent": "ask_tanam",
@@ -838,12 +906,20 @@
         "text": "ntar kalo bingung nanya lagi deh min"
       },
       {
+        "intent": "enough",
+        "text": "okai"
+      },
+      {
         "intent": "greet",
         "text": "halo"
       },
       {
         "intent": "greet",
         "text": "hai"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
       },
       {
         "intent": "greet",
@@ -1235,6 +1311,10 @@
       },
       {
         "intent": "thanks",
+        "text": "gaada min, yaudah makasih"
+      },
+      {
+        "intent": "thanks",
         "text": "ok deh, makasih"
       },
       {
@@ -1251,7 +1331,19 @@
       },
       {
         "intent": "thanks",
-        "text": "oke makasih bot"
+        "text": "oke makasih ya bot"
+      },
+      {
+        "intent": "ngaco",
+        "text": "mau siram"
+      },
+      {
+        "intent": "ngaco",
+        "text": "mau nanem"
+      },
+      {
+        "intent": "ngaco",
+        "text": "mau panen"
       }
     ],
     "regex_features": [],
